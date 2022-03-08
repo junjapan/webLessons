@@ -1,0 +1,28 @@
+#container{
+    width: 700px;
+    margin: 0 auto;
+}
+header{
+    height: 200px;
+}
+#contents{
+    display: flex;
+}
+main{
+    /* flex: 1; */
+    height: 500px;
+    background-color: aquamarine;
+    order: 2;
+    flex-grow: 2;
+    flex-direction: column;
+}
+aside{
+    /* width: 200px; */
+    background-color: yellow;
+    order: 1;
+    flex-grow: 1;
+}
+footer{
+    height: 100px;
+    background-color: aqua;
+}
